@@ -1,0 +1,18 @@
+[training@localhost ~]$ ifconfig
+eth0      Link encap:Ethernet  HWaddr 08:00:27:75:BA:AC  
+          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:130 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:142 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:10954 (10.6 KiB)  TX bytes:12465 (12.1 KiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:110254 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:110254 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:132118901 (125.9 MiB)  TX bytes:132118901 (125.9 MiB)
+
+[training@localhost ~]$ 
